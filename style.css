@@ -1,0 +1,10 @@
+#colorP {
+    color: red;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
