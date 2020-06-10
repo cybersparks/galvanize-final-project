@@ -31,3 +31,12 @@
     font-size: 20px;
     
   }
+  
+  /*Borrowed from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_page*/
+  /*You noticed your webpage was not responsive on phone, so you found this code*/
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .div1, .div2, .div3, .div4 {
+      width: 100%;
+    }
+  }
