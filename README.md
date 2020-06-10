@@ -1,2 +1,2 @@
 # galvanize-final-project!
-My stocks live feed
+Hosted website: https://jessiegonzo2020.github.io/galvanize-final-project/
