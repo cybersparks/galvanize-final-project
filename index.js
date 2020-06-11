@@ -1,7 +1,7 @@
-/*Carl wrote the below function to test to see if we can hit an end point. */
 /*This has an anonymous function, thats why the function inside the parantheses*/
-/*The .then makes the jS run asynchrousn instead of Syncrhones*/
-// wait till HTML loads then run this { } JavaScript
+// ALWAYS INCLUDE document.addEventListener('DOMContentLoaded', function () {} FUNCTION WHEN STARTING ANY JS FUNCTION ON THIS FILE. 
+//THIS FIRST LINE OF CODE IS NEEDED TO TELL THE DOM TO RUN THIS JS BEFORE RENDIRING THE PAGE
+//ITS ONE OF THOSE RULES YOU HAVE TO LIVE WITH
 //****Below code lets you ping the Pokemon API.
 document.addEventListener('DOMContentLoaded', function () {
     let button = document.querySelector('#search-button');
@@ -22,5 +22,49 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     });
   });
-//DUDE look at your CONSOLE.LOG for whats happening.
-//End of hitting Pokemon API and code//
+//DUDE check out the CONSOLE.LOG under the hood.
+/* End of hitting Pokemon API and code */
+
+/* Start of Event Listener Function FOR SOCIAL MEDIA */
+//ALWAYS NEED THIS TOP CODE document.addEventListener('DOMContentLoaded', function () {}
+//Added click event listener to open you tube. 
+//Source How to open a website: https://stackoverflow.com/questions/1226714/how-to-get-the-browser-to-navigate-to-url-in-javascript
+//Source How to use Event Handlers: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+document.addEventListener('DOMContentLoaded', function () {
+
+var x = document.getElementById("Ybutton");
+x.addEventListener("click", socialMedia);
+
+    function socialMedia() {
+        window.location.href = 'https://youtu.be/dQw4w9WgXcQ';
+        
+}
+})
+
+//Added above function for LinkedIn button redirect.
+//You'll need to learn how to build better functions to loop through this. 
+//automate this
+//THIS DID NOT WORK FOR SOME REASON
+// Linked In re-direct//
+document.addEventListener('DOMContentLoaded', function () {
+
+var x = document.getElementById("LinkedButton");
+ x.addEventListener("click", linkedInFunction);
+    
+    function linkedInFunction() {
+        window.location.href = 'https://www.linkedin.com/in/jessiegonzalez1';
+            
+}
+})
+
+//Twitter re-direct
+document.addEventListener('DOMContentLoaded', function () {
+
+var x = document.getElementById("tbutton");
+ x.addEventListener("click", twitterfunction);
+    
+        function twitterfunction() {
+            window.location.href = 'https://twitter.com/HumbleVet';
+            
+}
+})
