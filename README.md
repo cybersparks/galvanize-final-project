@@ -7,11 +7,11 @@ This website is the first website I'd like to boot up and start my day. I'm cons
 
 # Website Items
 - My top stock pics presented in a Ticker Stream
--Real Time from the West to East coast
--Random Qoute generator of Stoic Philosophy
--Easter egg
-    -Hint: Gotta catch em' all
--Social Media Links
-    -LinkedIn
-    -Twitter
-    -YouTube
+- Real Time from the West to East coast
+- Random Qoute generator of Stoic Philosophy
+- Easter egg
+    - Hint: Gotta catch em' all
+- Social Media Links
+    - LinkedIn
+    - Twitter
+    - ouTube
