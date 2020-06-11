@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 /* End of hitting Pokemon API and code */
 
 /* Start of Event Listener Function FOR SOCIAL MEDIA */
-//ALWAYS NEED THIS TOP CODE document.addEventListener('DOMContentLoaded', function () {}
+//ALWAYS NEED THIS TOP CODE WHEN STARTING A NEW JS FUNCTION document.addEventListener('DOMContentLoaded', function () {}
 //Added click event listener to open you tube. 
 //Source How to open a website: https://stackoverflow.com/questions/1226714/how-to-get-the-browser-to-navigate-to-url-in-javascript
 //Source How to use Event Handlers: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
