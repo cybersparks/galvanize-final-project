@@ -14,4 +14,5 @@ This website is the first website I'd like to boot up and start my day. I'm cons
 - Social Media Links
     - LinkedIn
     - Twitter
-    - ouTube
+    - YouTube
+## End of Read Me
