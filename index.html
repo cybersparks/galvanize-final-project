@@ -15,6 +15,9 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+    <!--This piece of code is needed to run API's per Carl-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body class="body"></body>
 
@@ -189,17 +192,12 @@
         <!--Real time for New York, NY-->
         <iframe src="https://freesecure.timeanddate.com/clock/i7bm2fkw/n179/fs20/tct/pct/ftb/pd2/ta1" frameborder="0" width="183" height="25" allowTransparency="true"></iframe>
         <!--End of code from timeanddate.com-->
-
-
-
-
-
-
         </div>
     
     <!--Center Div where qoutes button exists-->
     <div class="div3">
-        <h2>Inspiration for today..Add button here to generate qoutes</h2>
+        <h2>Click here for todays inspiration</h2>
+        <button id="" type="button">How are you today?</button>
     </div>
     
     <!--Center Div where qoutes will show-->
@@ -207,6 +205,15 @@
         <p>Errmagaaahhd, qoute here</p>
     </div>
 
+     <!--Code from Day June 10, 2020. This code works in tandem with your JS file code. Carls API code-->
+      <!--****Below code lets you ping the Pokemon API****-->
+      <div>
+        <h2>Choose todays adventure buddy!</h2>
+        <input id="search-input" type="text" placeholder="gotta catch 'em all!">
+        <button id="search-button" type="button">Select your pokeman wisely</button>
+        <img height="200px" src="" alt="" id="pokePic">
+        <img height="200px" src="" alt="" id="pokePic2">
+      </div>
 
     <!--Social Media buttons-->
     <div><button class="ui facebook button">
@@ -234,7 +241,7 @@
         YouTube
       </button></div>
 
- 
+
 
 </body>
 
