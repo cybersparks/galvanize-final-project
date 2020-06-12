@@ -18,7 +18,7 @@ var x = document.getElementById("qoutesBtn");
              "Anger is fear shown publicly -Tim Ferris", 
              "Discipline will set you free -Jacko Williams", 
              "5 P's Proper, Preperation, Prevents, Poor, Performance -Vicente R.", 
-             "May", 
+             "The unexamined life is not worth living -Socrates", 
              "June", 
              "July", 
              "August", 
@@ -29,6 +29,14 @@ var x = document.getElementById("qoutesBtn");
             const randomQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
 
             console.log("ponder... =>", randomQoute);
+
+            //psudo fucntion to return randomQoute
+            function myFunction() {
+                return randomQoute;
+              }
+              
+              document.getElementById("qoutesBtn").innerHTML = myFunction();
+              //end of psudo code
 
 //Source for above code, starting from "const qoutes =" ending at randomQoute console.log (https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
             //window.location.href = 'https://twitter.com/HumbleVet';
