@@ -14,6 +14,7 @@ var x = document.getElementById("qoutesBtn");
     x.addEventListener("click", tfunction);
         
         function tfunction() {
+            //Source for borrowed logic: starting from "const qoutes =" ending at randomQoute console.log (https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
             const qoutes = ["If you don't Have TIME, You Don't Have PRIORITIES -Tim Ferris",
              "Anger is fear shown publicly -Tim Ferris", 
              "Discipline will set you free -Jacko Williams", 
@@ -28,18 +29,20 @@ var x = document.getElementById("qoutesBtn");
              "December"];
             const randomQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
 
+            //This console log shows you in dev tools the above is working.
             console.log("ponder... =>", randomQoute);
 
-            //psudo fucntion to return randomQoute
+            //function to return randomQoute output from code above
+            //Logic source: (https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_state_return_pi)
             function myFunction() {
                 return randomQoute;
               }
               
-              document.getElementById("qoutesBtn").innerHTML = myFunction();
-              //end of psudo code
+              document.getElementById("qoutes-here").innerHTML = myFunction();
+            //end of randomQoute function.
 
-//Source for above code, starting from "const qoutes =" ending at randomQoute console.log (https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
-            //window.location.href = 'https://twitter.com/HumbleVet';
+
+            
         
         }     
     
