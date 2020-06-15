@@ -1,7 +1,3 @@
-#colorP {
-    color: red;
-    font-size: 25px;
-}
 /* Page background color and text alignment*/
 .body {
     background-color: lightgray;
@@ -13,9 +9,20 @@
     text-align: center;
   }
 
-.div2 {
-    padding: 20px;
+  /*Leaving this class here in case I want to use the div2 again following my div scheme*/
+/.div2 {
+
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: lightgray;
     text-align: center;
+    margin: 3px;
+    padding: 3px;
+    justify-content: center;
+    /*Used flexbox for the first time and learned justify content moves items to the center smh :)*/
+
   }
 
 .div3 {
@@ -33,8 +40,14 @@
     
   }
 
+  /*Leaving this class here in case I want to use the div2 again following my div scheme*/
   .div5 {
-    
+  }
+
+  #pokeheading {
+    padding: 20px;
+    font-size: 25px;
+    font-display: ;
   }
   
   /*Borrowed from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_page*/
