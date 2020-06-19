@@ -23,7 +23,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    flex-direction:column;
+    flex-direction: row;
     /*Used flexbox for the first time and learned justify content moves items to the center smh :)*/
 
   }
