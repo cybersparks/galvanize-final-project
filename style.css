@@ -58,3 +58,8 @@
       width: 100%;
     }
   }
+
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
