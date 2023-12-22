@@ -33,7 +33,10 @@ var x = document.getElementById("qoutesBtn");
              "Cling tooth and nail to the following rule: not to give in to adversity, never to trust prosperity, and always take full note of fortune’s habit of behaving just as she pleases, treating her as if she were actually going to do everything it is in her power to do. Whatever you have been expecting for some time comes as less of a shock. - Seneca",
              "It is not the man who has too little that is poor, but the one who hankers after more.― Lucius Annaeus Seneca",
              "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present. ― Marcus Aurelius, Meditations",
-             "We suffer more often in imagination than in reality. ― Lucius Annaeus Seneca",];
+             "We suffer more often in imagination than in reality. ― Lucius Annaeus Seneca",
+             "People spend too much time doing and not enough time thinking about what they should be doing -Naval Ravikant",
+             "The magic you are looking for is in the work you are avoiding. -unknown",
+             "No anger inside means no enemy outside. -unknown"];
             const randomQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
 
             //This console log shows you in dev tools the above is working.
