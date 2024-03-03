@@ -37,7 +37,7 @@ var x = document.getElementById("qoutesBtn");
              "People spend too much time doing and not enough time thinking about what they should be doing -Naval Ravikant",
              "The magic you are looking for is in the work you are avoiding. -unknown",
              "No anger inside means no enemy outside. -unknown",
-             "To lead yourself, use your head. To lead others, use your heart"
+             "To lead yourself, use your head. To lead others, use your heart",
 	         "To be prepared against surprise is to be trained. To be prepared for surprise is to be educated.” ― James P. Carse"];
             const randomQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
 
